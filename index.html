@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JA·LEO 1990 Leopoldo · Bar de tapas frente al mar · Blanes</title>
+<meta name="description" id="metaDesc" content="JA·LEO, bar familiar desde 1990 en el Passeig de s’Abanell 1 de Blanes, en primera línea de mar: pulpo a la gallega, sardinas, sonsos y pescaíto frito, tortilla con queso de tetilla, croquetas y postres caseros. Reservas 872 26 95 99.">
+<meta name="theme-color" content="#0F2740">
+<meta property="og:title" content="JA·LEO 1990 Leopoldo · Blanes">
+<meta property="og:description" content="Bar familiar des de 1990. Tapes i peix a primera línia de mar.">
+<meta property="og:image" content="assets/img/terrassa.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230F2740'/%3E%3Cpath d='M32 32m-4 0a4 4 0 1 1 8 0a8 8 0 1 1-16 0a12 12 0 1 1 24 0a16 16 0 1 1-32 0' fill='none' stroke='%23fff' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter+Tight:ital,wght@0,400..700;1,400..600&family=Parisienne&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="logo" href="#inici" aria-label="JA·LEO, inicio" data-i18n-attr="aria-label:nav.home">
+    <span class="logo__w">JA·LE<svg class="spiral" viewBox="0 0 40 40" aria-hidden="true"><path d="M20 20m-2.5 0a2.5 2.5 0 1 1 5 0a5 5 0 1 1-10 0a7.5 7.5 0 1 1 15 0a10 10 0 1 1-20 0a12.5 12.5 0 1 1 25 0a15 15 0 1 1-30 0"/></svg></span>
+    <small>1990 · Leopoldo</small>
+  </a>
+  <nav class="nav__links" aria-label="Secciones">
+    <a href="#familia" data-i18n="nav.fam">La familia</a>
+    <a href="#truita" data-i18n="nav.truita">La tortilla</a>
+    <a href="#carta" data-i18n="nav.carta">Carta</a>
+    <a href="#focs" data-i18n="nav.focs">Fuegos</a>
+    <a href="#fotos" data-i18n="nav.fotos">Fotos</a>
+    <a href="#visita" data-i18n="nav.visita">Visita</a>
+  </nav>
+  <div class="lang" data-lang-switch></div>
+  <a class="nav__call" href="tel:+34872269599"><i class="ph-bold ph-phone"></i><span>872 26 95 99</span></a>
+  <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Menú" data-i18n-attr="aria-label:nav.menu"><span></span><span></span></button>
+</header>
+<div class="drawer" id="drawer">
+  <a href="#familia" data-i18n="nav.fam">La familia</a><a href="#truita" data-i18n="nav.truita">La tortilla</a><a href="#carta" data-i18n="nav.carta">Carta</a><a href="#focs" data-i18n="nav.focs">Fuegos</a><a href="#fotos" data-i18n="nav.fotos">Fotos</a><a href="#visita" data-i18n="nav.visita">Visita</a>
+  <a class="drawer__call" href="tel:+34872269599">872 26 95 99</a>
+  <div class="langs" data-lang-list></div>
+</div>
+
+<main>
+  <!-- ============ PORTADA · el banco de sardinas ============ -->
+  <section class="hero" id="inici">
+    <canvas class="school" id="school" aria-hidden="true"></canvas>
+    <div class="hero__in">
+      <h1 class="hero__title"><span class="sr-only" data-i18n="hero.h1">JA·LEO 1990 Leopoldo, bar de tapas frente al mar en Blanes</span>
+        <span class="mark" aria-hidden="true">JA<i>·</i>LE<svg class="spiral spiral--big" id="bigSpiral" viewBox="0 0 40 40"><path d="M20 20m-2.5 0a2.5 2.5 0 1 1 5 0a5 5 0 1 1-10 0a7.5 7.5 0 1 1 15 0a10 10 0 1 1-20 0a12.5 12.5 0 1 1 25 0a15 15 0 1 1-30 0"/></svg></span>
+        <span class="mark__sub" aria-hidden="true">1990 · Leopoldo</span>
+      </h1>
+      <p class="hero__sub" data-i18n="hero.sub">Bar familiar desde 1990</p>
+      <p class="hero__lead" data-i18n="hero.lead"></p>
+      <div class="hero__meta">
+        <p class="stars" data-i18n="hero.rating"><b>4,5</b> ★ · 1.041 opiniones en Google</p>
+        <p class="live" data-live><span class="live__dot"></span><span data-live-text></span></p>
+      </div>
+      <div class="ctas">
+        <a class="btn btn--white" href="tel:+34872269599"><i class="ph-bold ph-phone"></i><span data-i18n="hero.cta1">Reservar · 872 26 95 99</span></a>
+        <a class="btn btn--line" href="#carta"><span data-i18n="hero.cta2">Ver la carta</span><i class="ph-bold ph-arrow-down"></i></a>
+      </div>
+    </div>
+    <p class="hero__hint"><i class="ph-bold ph-fish-simple"></i><span data-i18n="hero.hint">Pasa el ratón: el banco de sardinas se aparta</span></p>
+  </section>
+
+  <!-- ============ LA FAMILIA ============ -->
+  <section class="familia" id="familia">
+    <div class="wrap familia__grid">
+      <div>
+        <p class="kicker" data-i18n="fa.kicker">La familia</p>
+        <h2 class="h2 reveal" data-i18n="fa.title"></h2>
+        <p class="lead reveal" data-i18n="fa.lead"></p>
+        <ol class="time">
+          <li class="reveal"><b>1990</b><span><strong data-i18n="fa.t1"></strong> <span data-i18n="fa.t1d"></span></span></li>
+          <li class="reveal"><b>2024</b><span><strong data-i18n="fa.t2"></strong> <span data-i18n="fa.t2d"></span></span></li>
+          <li class="reveal"><b>2026</b><span><strong data-i18n="fa.t3"></strong> <span data-i18n="fa.t3d"></span></span></li>
+        </ol>
+      </div>
+      <figure class="familia__fig reveal"><img src="assets/img/familia.jpg" alt="" data-i18n-attr="alt:fa.cap" loading="lazy"><figcaption data-i18n="fa.cap"></figcaption></figure>
+    </div>
+    <div class="wrap quotes">
+      <blockquote class="quote reveal"><p data-i18n="q.1"></p><cite data-i18n="q.src"></cite></blockquote>
+      <blockquote class="quote reveal"><p data-i18n="q.2"></p><cite data-i18n="q.src"></cite></blockquote>
+      <blockquote class="quote reveal"><p data-i18n="q.3"></p><cite data-i18n="q.src"></cite></blockquote>
+    </div>
+  </section>
+
+  <!-- ============ LA TORTILLA ============ -->
+  <section class="truita" id="truita">
+    <div class="wrap truita__grid">
+      <div>
+        <p class="kicker" data-i18n="tr.kicker">La estrella de la barra</p>
+        <h2 class="h2" data-i18n="tr.title">Dale la vuelta <em>a la tortilla</em></h2>
+        <p class="lead" data-i18n="tr.lead"></p>
+        <div class="sides" id="sides" aria-live="polite"></div>
+        <p class="truita__msg" id="trMsg" aria-live="polite"></p>
+        <div class="ctas">
+          <button class="btn btn--sun" type="button" id="btnFlip"><i class="ph-bold ph-arrows-clockwise"></i><span data-i18n="tr.flip">¡Vuelta!</span></button>
+          <button class="btn btn--line-dark" type="button" id="btnCut" disabled><i class="ph-bold ph-knife"></i><span data-i18n="tr.cut">Cortar una porción</span></button>
+          <button class="btn btn--line-dark" type="button" id="btnAgain" hidden><i class="ph-bold ph-arrow-counter-clockwise"></i><span data-i18n="tr.again">Otra tortilla</span></button>
+        </div>
+      </div>
+      <div class="stove">
+        <canvas id="panCv" aria-hidden="true"></canvas>
+        <p class="stove__tip" id="trTip" data-i18n="tr.tip">Toca la sartén para darle la vuelta</p>
+        <figure class="stove__real"><img src="assets/img/truita.jpg" alt="" data-i18n-attr="alt:cap.truita" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARTA ============ -->
+  <section class="carta" id="carta">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" data-i18n="ca.kicker">La carta</p>
+        <h2 class="h2" data-i18n="ca.title">Del mar <em>a la mesa</em></h2>
+        <p class="lead" data-i18n="ca.lead"></p>
+      </div>
+      <div id="dishes"></div>
+      <p class="note" data-i18n="ca.note"></p>
+    </div>
+  </section>
+
+  <!-- ============ FUEGOS ============ -->
+  <section class="focs" id="focs">
+    <div class="wrap focs__grid">
+      <div>
+        <p class="kicker" data-i18n="fo.kicker">Las noches de fuegos</p>
+        <h2 class="h2" data-i18n="fo.title"></h2>
+        <p class="lead" data-i18n="fo.lead"></p>
+        <div class="fmenu">
+          <p class="fmenu__h" data-i18n="fo.menu">Menú de fuegos 2026</p>
+          <p class="fmenu__s" data-i18n="fo.share">Todo para compartir</p>
+          <ul class="fmenu__l">
+            <li data-i18n="fo.i1"></li><li data-i18n="fo.i2"></li><li data-i18n="fo.i3"></li><li data-i18n="fo.i4"></li><li data-i18n="fo.i5"></li><li data-i18n="fo.i6"></li><li data-i18n="fo.i7"></li><li data-i18n="fo.i8"></li>
+          </ul>
+          <p class="fmenu__d" data-i18n="fo.dates"></p>
+        </div>
+        <p class="gift"><i class="ph-bold ph-gift"></i><span data-i18n="fo.gift"></span></p>
+      </div>
+      <div class="focs__pics">
+        <figure class="poster reveal"><img src="assets/img/menu-focs.jpg" alt="" data-i18n-attr="alt:fo.cap" loading="lazy"><figcaption data-i18n="fo.cap"></figcaption></figure>
+        <figure class="poster poster--2 reveal"><img src="assets/img/focs-2026.jpg" alt="Focs de Blanes 2026" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOTOS ============ -->
+  <section class="fotos" id="fotos">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="kicker" data-i18n="ft.kicker">En la mesa</p>
+        <h2 class="h2" data-i18n="ft.title">Pescado fresco, <em>cada día</em></h2>
+      </div>
+      <div class="tiles" id="tiles">
+        <figure class="tile tile--vid"><video id="vid" src="assets/video/sardines.mp4" poster="assets/video/sardines-poster.jpg" muted loop playsinline preload="metadata" aria-label="Sardinas frescas" data-i18n-attr="aria-label:ft.vid"></video><figcaption data-i18n="ft.vid"></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISITA ============ -->
+  <section class="visita" id="visita">
+    <div class="wrap visita__grid">
+      <div>
+        <p class="kicker" data-i18n="vis.kicker">Visita</p>
+        <h2 class="h2" data-i18n="vis.title">A primera línea, <em>en s’Abanell</em></h2>
+        <p class="visita__addr" data-i18n="vis.addr">Passeig de s’Abanell, 1<br>17300 Blanes (Girona)</p>
+        <p class="live" data-live><span class="live__dot"></span><span data-live-text></span></p>
+        <p class="visita__note" data-i18n="vis.note"></p>
+        <div class="ctas">
+          <a class="btn btn--white" href="tel:+34872269599"><i class="ph-bold ph-phone"></i><span><span data-i18n="vis.call">Reservar</span> · 872 26 95 99</span></a>
+          <a class="btn btn--line" href="https://maps.google.com/?cid=3616336037615253465" target="_blank" rel="noopener"><i class="ph-bold ph-navigation-arrow"></i><span data-i18n="vis.maps">Abrir en Google Maps</span></a>
+          <a class="btn btn--line" href="https://www.instagram.com/ja.leoblanes/" target="_blank" rel="noopener"><i class="ph-bold ph-instagram-logo"></i><span>@ja.leoblanes</span></a>
+        </div>
+      </div>
+      <div class="hours">
+        <p class="hours__h" data-i18n="vis.hours">Horario</p>
+        <ul class="hours__list" id="hoursList"></ul>
+        <figure class="hours__pic"><img src="assets/img/terrassa.jpg" alt="" data-i18n-attr="alt:cap.terrassa" loading="lazy"></figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="foot__big" aria-hidden="true">JA·LEO</p>
+  <div class="foot__row">
+    <span>JA·LEO 1990 Leopoldo · Passeig de s’Abanell, 1 · 17300 Blanes · <a href="tel:+34872269599">872 26 95 99</a></span>
+    <span data-i18n="foot.photos"></span>
+    <div class="langs" data-lang-list></div>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden>
+  <button class="lb__x" type="button" id="lbX" aria-label="Cerrar" data-i18n-attr="aria-label:lb.close"><i class="ph-bold ph-x"></i></button>
+  <button class="lb__nav lb__nav--p" type="button" id="lbP" aria-label="Anterior" data-i18n-attr="aria-label:lb.prev"><i class="ph-bold ph-caret-left"></i></button>
+  <figure class="lb__fig"><img id="lbImg" src="" alt=""><figcaption id="lbCap"></figcaption></figure>
+  <button class="lb__nav lb__nav--n" type="button" id="lbN" aria-label="Siguiente" data-i18n-attr="aria-label:lb.next"><i class="ph-bold ph-caret-right"></i></button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
